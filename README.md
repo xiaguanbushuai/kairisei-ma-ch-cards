@@ -7,7 +7,7 @@
 
 | 项目 | 说明 |
 | --- | --- |
-| 来源 | 国服客户端资源包 `resource-set/resources/image/chr51/` |
+| 来源 | [kuuhaku1314/kairisei-ma-ch](https://github.com/kuuhaku1314/kairisei-ma-ch) 资源包 `resource-set/resources/image/chr51/` |
 | 格式 | WebP q85 全尺寸转码（保留透明通道，原图 1024×1024 / 1280×1024 RGBA） |
 | 体积 | 约 1.0 GB（原 PNG 共 5.4 GB，压缩到约 19%） |
 | 画质 | 动漫立绘视觉上与 PNG 无明显差别 |
@@ -35,6 +35,11 @@ images/chr51/chr51_<图鉴ID>.webp
 
 把 `images/chr51/` 里的 `.webp` 文件拷进便携包的 `images/full/chr51/` 目录，
 详情页即显示高清大图（便携包服务端会自动识别 WebP，无需改名，也会自动优先原图）。
+
+## 致谢
+
+卡面素材取自 **[kuuhaku1314/kairisei-ma-ch](https://github.com/kuuhaku1314/kairisei-ma-ch)** —— 《乖离性百万亚瑟王》国服社区保存与本地运行项目。
+感谢作者及所有参与保存这款游戏记忆的社区同好。
 
 ## 许可与免责声明
 
