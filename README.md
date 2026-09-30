@@ -11,14 +11,20 @@
 | 格式 | WebP q85 全尺寸转码（保留透明通道，原图 1024×1024 / 1280×1024 RGBA） |
 | 体积 | 约 1.0 GB（原 PNG 共 5.4 GB，压缩到约 19%） |
 | 画质 | 动漫立绘视觉上与 PNG 无明显差别 |
-| 用途 | 配合 [karisei-ma-ch-wiki](https://github.com/xiaguanbushuai/karisei-ma-ch-wiki) 资料站使用，或作为个人收藏备份 |
+| 用途 | 配合 [kairisei-ma-ch-wiki](https://github.com/xiaguanbushuai/kairisei-ma-ch-wiki) 资料站使用，或作为个人收藏备份 |
 
 ## 下载
 
-仓库约 1GB，只想要文件的话建议浅克隆（不带历史，体积更小）：
+**推荐：从 Releases 下分卷 zip**（不必装 Git，两个 zip 各约 530 MB）
+
+到 [Releases](https://github.com/xiaguanbushuai/kairisei-ma-ch-cards/releases/latest) 下载
+`chr51-cards-part1of2.zip` 与 `chr51-cards-part2of2.zip`，两个都解压即得到完整的 `chr51/` 目录。
+体积接近 1GB，点 GitHub 的「Download ZIP」容易超时，所以走 Release 附件。
+
+也可以浅克隆（只想要少量图片时没必要）：
 
 ```bash
-git clone --depth 1 https://github.com/xiaguanbushuai/karisei-ma-ch-cards.git
+git clone --depth 1 https://github.com/xiaguanbushuai/kairisei-ma-ch-cards.git
 ```
 
 如果只想要少量图片，直接在网页上点开单张图片 → 右侧 Download 即可，不必克隆整个仓库。
